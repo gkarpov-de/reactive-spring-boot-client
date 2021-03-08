@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c1dd6f8-2d01-4d58-b510-f1010af8fdb0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1pTHiRCJmkEydUxxR0OoQm7c2lz" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="openjdk-15" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/stock-ui/src/main/java" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.53014356" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gk.restdemo.stockclient" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="gk.restdemo.stockclient" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="gk.restdemo.stockui" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="gk.restdemo.stockclient" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gk.restdemo.stockclient" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn -U" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RSocketStockClientIT">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSocketStockClientIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stock-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gk.restdemo.stockclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gk.restdemo.stockclient" />
+      <option name="MAIN_CLASS_NAME" value="gk.restdemo.stockclient.RSocketStockClientIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSocketStockClientIT.shouldRetrieveStockPricesFromService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stock-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gk.restdemo.stockclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gk.restdemo.stockclient" />
+      <option name="MAIN_CLASS_NAME" value="gk.restdemo.stockclient.RSocketStockClientIT" />
+      <option name="METHOD_NAME" value="shouldRetrieveStockPricesFromService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebClientStockClientIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stock-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gk.restdemo.stockclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gk.restdemo.stockclient" />
+      <option name="MAIN_CLASS_NAME" value="gk.restdemo.stockclient.WebClientStockClientIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebClientStockClientIT.shouldRetrieveStockPricesFromService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stock-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gk.restdemo.stockclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gk.restdemo.stockclient" />
+      <option name="MAIN_CLASS_NAME" value="gk.restdemo.stockclient.WebClientStockClientIT" />
+      <option name="METHOD_NAME" value="shouldRetrieveStockPricesFromService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stock-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gk.restdemo.stockclient.StockClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockUiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stock-ui" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gk.restdemo.stockui.StockUiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RSocketStockClientIT" />
+        <item itemvalue="JUnit.RSocketStockClientIT.shouldRetrieveStockPricesFromService" />
+        <item itemvalue="JUnit.WebClientStockClientIT.shouldRetrieveStockPricesFromService" />
+        <item itemvalue="JUnit.WebClientStockClientIT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c1dd6f8-2d01-4d58-b510-f1010af8fdb0" name="Default Changelist" comment="" />
+      <created>1615200287221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615200287221</updated>
+      <workItem from="1615200289567" duration="8534000" />
+      <workItem from="1615211388622" duration="303000" />
+      <workItem from="1615239047417" duration="2635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
