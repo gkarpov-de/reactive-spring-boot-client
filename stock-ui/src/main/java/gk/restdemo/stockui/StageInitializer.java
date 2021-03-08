@@ -20,22 +20,22 @@ public class StageInitializer implements ApplicationListener<StageReadyEvent> {
     private final String applicationTitle;
     private final ApplicationContext applicationContext;
 
-    public StageInitializer(@Value("${spring.application.ui.title}") String applicationTitle, ApplicationContext applicationContext) {
+    public StageInitializer(@Value("${spring.application.ui.title} (${spring.profiles.active})") final String applicationTitle, final ApplicationContext applicationContext) {
         this.applicationTitle = applicationTitle;
         this.applicationContext = applicationContext;
     }
 
     @Override
-    public void onApplicationEvent(StageReadyEvent event) {
+    public void onApplicationEvent(final StageReadyEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(chartResource.getURL());
+            final FXMLLoader fxmlLoader = new FXMLLoader(chartResource.getURL());
             fxmlLoader.setControllerFactory(applicationContext::getBean);
-            Parent parent = fxmlLoader.load();
-            Stage stage = event.getStage();
+            final Parent parent = fxmlLoader.load();
+            final Stage stage = event.getStage();
             stage.setScene(new Scene(parent, 800, 600));
             stage.setTitle(applicationTitle);
             stage.show();
-        } catch (IOException e) {
+        } catch (final IOException e) {
             // TODO implement exception handling
             throw new RuntimeException();
         }

@@ -18,13 +18,12 @@ import static javafx.collections.FXCollections.observableArrayList;
 
 @Component
 public class ChartController {
-    private final StockClient webClientStockClient;
+    private final StockClient stockClient;
     @FXML
     public LineChart<String, Double> chart;
 
-
-    public ChartController(final StockClient webClientStockClient) {
-        this.webClientStockClient = webClientStockClient;
+    public ChartController(final StockClient stockClient) {
+        this.stockClient = stockClient;
     }
 
     public void initialize() {
@@ -39,8 +38,7 @@ public class ChartController {
             data.add(priceSubscriber.getSeries());
             chart.setData(data);
 
-            webClientStockClient.priceFor(symbol).subscribe(priceSubscriber);
-
+            stockClient.priceFor(symbol).subscribe(priceSubscriber);
         }
     }
 

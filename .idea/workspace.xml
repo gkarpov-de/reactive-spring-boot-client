@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1dd6f8-2d01-4d58-b510-f1010af8fdb0" name="Default Changelist" comment="" />
+    <list default="true" id="6c1dd6f8-2d01-4d58-b510-f1010af8fdb0" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-client/src/main/java/gk/restdemo/stockclient/ClientConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-client/src/main/java/gk/restdemo/stockclient/ClientConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-client/src/main/java/gk/restdemo/stockclient/RSocketStockClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-client/src/main/java/gk/restdemo/stockclient/RSocketStockClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-client/src/main/java/gk/restdemo/stockclient/WebClientStockClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-client/src/main/java/gk/restdemo/stockclient/WebClientStockClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ui/src/main/java/gk/restdemo/stockui/ChartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ui/src/main/java/gk/restdemo/stockui/ChartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ui/src/main/java/gk/restdemo/stockui/StageInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ui/src/main/java/gk/restdemo/stockui/StageInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ui/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ui/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -29,6 +40,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1pTHiRCJmkEydUxxR0OoQm7c2lz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -89,7 +101,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RSocketStockClientIT">
+  <component name="RunManager" selected="Spring Boot.StockUiApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -196,11 +208,23 @@
       <updated>1615200287221</updated>
       <workItem from="1615200289567" duration="8534000" />
       <workItem from="1615211388622" duration="303000" />
-      <workItem from="1615239047417" duration="2635000" />
+      <workItem from="1615239047417" duration="4712000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1615241970346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615241970346</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

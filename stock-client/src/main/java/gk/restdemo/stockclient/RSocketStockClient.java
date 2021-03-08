@@ -18,6 +18,7 @@ public class RSocketStockClient implements StockClient {
 
     @Override
     public Flux<StockPrice> priceFor(final String symbol) {
+        log.info("RSocket stock client");
         return rSocketRequester.route("stockPrice")
                 .data(symbol)
                 .retrieveFlux(StockPrice.class)
